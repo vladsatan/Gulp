@@ -1,0 +1,36 @@
+body {
+    background-color: #242424;
+    color: white;
+
+    .container {
+        border: 1px solid white;
+        display: flex;
+    }
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    li {
+        margin-right: 40px;
+    }
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(72, 72, 255) !important;
+}
